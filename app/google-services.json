@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "313191620257",
+    "firebase_url": "https://spark-ec5c8.firebaseio.com",
+    "project_id": "spark-ec5c8",
+    "storage_bucket": "spark-ec5c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313191620257:android:f4d105e2d3ba2e3e75dae0",
+        "android_client_info": {
+          "package_name": "com.example.spark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313191620257-ed5ajjbrp9asvojk5s8a2kljpfhci179.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spark",
+            "certificate_hash": "9cea7dac435cab390729a470f13eeb794eb49bba"
+          }
+        },
+        {
+          "client_id": "313191620257-t7kjgihusvad5k7u0n16jhc6b3c3uqkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsbqEJLRzYv8uqB1h8yJSgCHcoPxz4NoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313191620257-t7kjgihusvad5k7u0n16jhc6b3c3uqkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
