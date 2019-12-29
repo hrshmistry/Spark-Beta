@@ -50,7 +50,8 @@ class mode : AppCompatActivity() {
         var ball = 0
         var ball_count = 0
         var wicket = 0
-        val database = FirebaseDatabase.getInstance()
+        val
+                database = FirebaseDatabase.getInstance()
         val myRef = database.getReference("score")
         val reff = database.getReference("ball")
         val yreff = database.getReference("wicket")
