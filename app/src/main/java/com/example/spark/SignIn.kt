@@ -50,7 +50,7 @@ class SignIn : AppCompatActivity() {
                                 Toast.LENGTH_SHORT
                             )
                                 .show()
-                            var intent = Intent(this@SignIn, mode::class.java)
+                            var intent = Intent(this@SignIn, moderator::class.java)
                             startActivity(intent)
                         } else {
                             Toast.makeText(

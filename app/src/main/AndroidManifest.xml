@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".moderator"></activity>
+        <activity android:name=".volleyball" />
+        <activity android:name=".badminton" />
+        <activity android:name=".kabaddi" />
+        <activity android:name=".kho_kho" />
+        <activity android:name=".football" />
         <activity android:name=".SignIn" />
         <activity android:name=".MainActivity" />
         <activity android:name=".mode" />

@@ -1,18 +1,14 @@
 package com.example.spark
 
 
-import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.view.Menu
-import android.view.MenuItem
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import com.example.spark.R.id.btnSignin as btnSignin1
 
 class MainActivity : AppCompatActivity() {
 
@@ -170,30 +166,6 @@ class MainActivity : AppCompatActivity() {
                 Log.d("Exception", p0.message)
             }
         })
-
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-
-        menuInflater.inflate(R.menu.jj, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        /*return when (item.itemId) {
-            R.id.btnSignin -> true
-            else -> super.onOptionsItemSelected(item)
-        }*/
-        return when (item.itemId) {
-            btnSignin1 -> {
-                startActivity(Intent(this@MainActivity, SignIn::class.java))
-                return true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
 
     }
 }

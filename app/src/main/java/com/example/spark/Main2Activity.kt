@@ -1,6 +1,9 @@
 package com.example.spark
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -27,5 +30,22 @@ class Main2Activity : AppCompatActivity() {
 
         apps.layoutManager = GridLayoutManager(applicationContext, 2)
         apps.adapter = adapter
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+
+        menuInflater.inflate(R.menu.jj, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.btnSignin -> {
+                startActivity(Intent(this@Main2Activity, SignIn::class.java))
+                return true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+
     }
 }
