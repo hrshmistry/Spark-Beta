@@ -1,58 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="#C7CADD"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/crickScore"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="629dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/email_txt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:background="#fff"
-        android:ems="10"
-        android:hint="Enter your email"
-        android:inputType="textEmailAddress"
-        android:padding="10dp"
-        android:textColor="@color/colorPrimary" />
-
-    <EditText
-        android:id="@+id/pass_txt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/email_txt"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:background="#fff"
-        android:ems="10"
-        android:hint="Enter your password"
-        android:inputType="numberPassword"
-        android:padding="10dp"
-        android:textColor="@color/colorPrimary" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="false"
-        android:layout_alignParentBottom="true"
-        android:baselineAligned="false"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/sign_in"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:onClick="sigin_user"
-            android:text="@string/common_signin_button_text"
-            android:textColor="@color/common_google_signin_btn_text_dark_default"
-            android:textSize="24sp"
-            android:textStyle="bold|italic" />
-
-    </LinearLayout>
-</RelativeLayout>
+    <TextView
+        android:id="@+id/runPerOver"
+        android:layout_width="174dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginBottom="592dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

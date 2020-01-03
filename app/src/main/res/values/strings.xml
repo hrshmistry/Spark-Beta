@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Spark</string>
     <string name="login">Login</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
 </resources>

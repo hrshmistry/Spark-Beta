@@ -178,6 +178,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ball_decrease"
             app:layout_constraintVertical_bias="0.0" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -272,5 +273,36 @@
             android:textStyle="bold" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/lb"
+        android:layout_width="109dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="65dp"
+        android:text="lb"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/updateLastBall"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="58dp"
+        android:layout_toStartOf="@+id/lb"
+        android:text="updateLastBall" />
+
+    <Button
+        android:id="@+id/runMinusFour"
+        android:layout_width="134dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="402dp"
+        android:text="RUN -4" />
 
 </RelativeLayout>
