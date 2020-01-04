@@ -2,14 +2,22 @@ package com.example.spark
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.Menu
 import android.view.MenuItem
+import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
+import androidx.core.view.GravityCompat
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.navigation.NavigationView
+import kotlinx.android.synthetic.main.activity_moderator.*
 import java.util.*
 
-class Main2Activity : AppCompatActivity() {
+class Main2Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+    lateinit var toolbar: Toolbar
+    lateinit var drawerLayout: DrawerLayout
+    lateinit var navView: NavigationView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,22 +38,42 @@ class Main2Activity : AppCompatActivity() {
 
         apps.layoutManager = GridLayoutManager(applicationContext, 2)
         apps.adapter = adapter
+
+        toolbar = findViewById(R.id.toolbar)
+        setSupportActionBar(toolbar)
+        drawerLayout = findViewById(R.id.drawer_layout)
+        navView = findViewById(R.id.nav_view)
+
+        val toggle = ActionBarDrawerToggle(
+            this, drawerLayout, toolbar, 0, 0
+        )
+        drawerLayout.addDrawerListener(toggle)
+        toggle.syncState()
+        navView.setNavigationItemSelectedListener(this)
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
 
-        menuInflater.inflate(R.menu.jj, menu)
+            R.id.nav_profile -> {
+                startActivity(Intent(this@Main2Activity, mode::class.java))
+            }
+            R.id.nav_messages -> {
+                startActivity(Intent(this@Main2Activity, badminton_bd::class.java))
+            }
+            R.id.nav_friends -> {
+                startActivity(Intent(this@Main2Activity, kabaddi::class.java))
+            }
+            R.id.nav_update -> {
+                startActivity(Intent(this@Main2Activity, kabaddi_bd::class.java))
+            }
+            R.id.nav_logout -> {
+                startActivity(Intent(this@Main2Activity, SignIn::class.java))
+            }
+        }
+        drawerLayout.closeDrawer(GravityCompat.START)
         return true
     }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.btnSignin -> {
-                startActivity(Intent(this@Main2Activity, SignIn::class.java))
-                return true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
-
-    }
 }
+
+

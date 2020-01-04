@@ -8,6 +8,43 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:313191620257:android:205c289027f1d03275dae0",
+        "android_client_info": {
+          "package_name": "com.example.football"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313191620257-anuvrpp26u92u44a2phsbc1bu3lge4h4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.football",
+            "certificate_hash": "9cea7dac435cab390729a470f13eeb794eb49bba"
+          }
+        },
+        {
+          "client_id": "313191620257-t7kjgihusvad5k7u0n16jhc6b3c3uqkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsbqEJLRzYv8uqB1h8yJSgCHcoPxz4NoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313191620257-t7kjgihusvad5k7u0n16jhc6b3c3uqkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:313191620257:android:f4d105e2d3ba2e3e75dae0",
         "android_client_info": {
           "package_name": "com.example.spark"

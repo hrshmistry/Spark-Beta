@@ -5,4 +5,32 @@
     <string name="_2">2</string>
     <string name="enter_your_email">Enter your email</string>
     <string name="enter_your_password">Enter your password</string>
+    <string name="football">Football</string>
+    <string name="name1">Name</string>
+    <string name="back">Back</string>
+    <string name="scoree2">scoree-</string>
+    <string name="scoree3">scoree+</string>
+    <string name="score1">score-</string>
+    <string name="score2">score+</string>
+    <string name="team_11">team_1</string>
+    <string name="team_22">team_2</string>
+    <string name="submit1">Submit</string>
+    <string name="button1">Button</string>
+    <string name="name">Soccer</string>
+    <string name="hint">0</string>
+    <string name="Button">+</string>
+    <string name="Button2">-</string>
+    <string name="team">Team A</string>
+    <string name="team2">Team B</string>
+    <string name="stopwatch">Start</string>
+    <string name="kabaddi">KABADDI</string>
+
+    <string-array name="Team">
+        <item>IT</item>
+        <item>CE</item>
+        <item>MECH</item>
+        <item>ELEC</item>
+        <item>EC</item>
+        <item>IC</item>
+    </string-array>
 </resources>
