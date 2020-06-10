@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ConstraintLayout"
+    android:background="@mipmap/artboard"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/vs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/opensansextrabold"
+        android:hint="vs"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/strike1"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="347dp"
+        android:visibility="visible"
+        app:srcCompat="@mipmap/arrowbluestrike" />
+
+    <TextView
+        android:id="@+id/ball"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="240dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/opensanssemibold"
+        android:hint="Balls"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/strike2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="395dp"
+        android:layout_marginStart="12dp"
+        android:visibility="visible"
+        app:srcCompat="@mipmap/arrowbluestrike" />
+
+    <TextView
+        android:id="@+id/crickScore"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/opensanssemibold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:hint="live score"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/runPerOver"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/runPerOver"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_below="@+id/ball"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/opensanssemibold"
+        android:gravity="center"
+        android:hint="Run/Over"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/forPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/opensansbold"
+        android:gravity="center"
+        android:hint="player 1"
+        android:textColor="@color/Black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/forPlayer2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283" />
+
+    <TextView
+        android:id="@+id/forPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/opensansbold"
+        android:gravity="center"
+        android:hint="player 2"
+        android:textColor="@color/Black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="92dp"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="33dp"
+        android:contentDescription="TODO2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076"
+        app:srcCompat="@mipmap/itdept" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="92dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="228dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="343dp"
+        android:baselineAlignBottom="false"
+        android:contentDescription="TODO2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076"
+        app:srcCompat="@mipmap/itdept" />
+
+    <TextView
+        android:id="@+id/toss_info"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_below="@id/forPlayer1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="24sp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toss_info"
+        android:layout_marginTop="76dp"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/admob_banner_ad">
+
+    </com.google.android.gms.ads.AdView>
+
+    <ImageView
+        android:id="@+id/choose2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="135dp"
+        app:srcCompat="@mipmap/ball" />
+
+    <ImageView
+        android:id="@+id/choose1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="130dp"
+        app:srcCompat="@mipmap/bat" />
+
+
+</RelativeLayout>

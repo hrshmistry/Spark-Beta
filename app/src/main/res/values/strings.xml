@@ -3,8 +3,8 @@
     <string name="login">Login</string>
     <string name="_1">1</string>
     <string name="_2">2</string>
-    <string name="enter_your_email">Enter your email</string>
-    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_email">Email</string>
+    <string name="enter_your_password">Password</string>
     <string name="football">Football</string>
     <string name="name1">Name</string>
     <string name="back">Back</string>
@@ -24,13 +24,37 @@
     <string name="team2">Team B</string>
     <string name="stopwatch">Start</string>
     <string name="kabaddi">KABADDI</string>
+    <string name="nav_profile">About Us</string>
+    <string name="nav_messages">Sign In</string>
+    <string name="kabaddi_schedule"> <a href="https://www.tutorialspoint.com/java/index.html">kabaddi_schedule</a></string>
+    <string name="badminton_schedule"><a href="https://www.tutorialspoint.com/java/index.html">badminton schedule</a></string>
+    <string name="football_schedule"><a href="https://www.tutorialspoint.com/java/index.html">Football Schedule</a></string>
+    <string name="cricket_schedule"><a href="https://www.tutorialspoint.com/java/index.html">Cricket Schedule</a></string>
+    <string name="khokho_schedule"><a href="https://www.tutorialspoint.com/java/index.html">KhoKho Schedule</a></string>
+    <string name="volleyball_schedule"><a href="https://www.tutorialspoint.com/java/index.html">Volleyball Schedule</a></string>
+    <string name="hockey_schedule"><a href="https://www.tutorialspoint.com/java/index.html">Hockey Schedule</a></string>
+    <string name="todo">TODO</string>
+    <string name="spark">SPARK</string>
+    <string name="moderator_login">MODERATOR LOGIN</string>
+
+    <string name="admob_banner_ad">ca-app-pub-9539760610669704/9189481110</string>
+    <string name="admob_app_id">ca-app-pub-9539760610669704~7054148653</string>
+<!--    <string name="admob_banner_ad">ca-app-pub-3940256099942544/6300978111</string>-->
 
     <string-array name="Team">
         <item>IT</item>
         <item>CE</item>
         <item>MECH</item>
-        <item>ELEC</item>
+        <item>EE</item>
         <item>EC</item>
         <item>IC</item>
+        <item>ARCHI</item>
+        <item>CIVIL</item>
+        <item>AERO</item>
+        <item>MCA</item>
+        <item>OTHER</item>
+
     </string-array>
+	<string name="sparksvit_live"><a href="https://sparksvit.live/">Sparksvit.live</a></string>
+
 </resources>

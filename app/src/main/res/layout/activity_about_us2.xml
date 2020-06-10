@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@color/White">
+
+
+        <TextView
+            android:id="@+id/textGrid1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserratbold"
+            android:text="SPARK"
+            android:textAlignment="center"
+            android:textColor="#02A9CE"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textGrid2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="0dp"
+            android:fontFamily="@font/montserratregular"
+            android:text="Spark provides you with blazing fast, reliable and accurate sport event updates with live Score and Schedules for Sport events like Cricket, Football, Kabaddi, Badminton and many more Our team of moderators ensure you get best possible updates of all live matches."
+            android:textColor="#02A9CE"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textGrid3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textGrid2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/montserratregular"
+            android:linksClickable="true"
+            android:text="@string/sparksvit_live"
+            android:textColor="#02A9CE"
+            android:textColorLink="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textGrid4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginBottom="112dp"
+            android:fontFamily="@font/montserratbold"
+            android:text="DEVELOPED BY:"
+            android:textAlignment="viewStart"
+            android:textColor="#02A9CE"
+            android:textSize="20dp" />
+
+        <TableLayout
+            android:id="@+id/player_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="800dp"
+            android:layout_marginStart="300dp"
+            android:stretchColumns="*"/>
+        <TableRow
+            android:padding="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="360dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:text="⦿ Aayush Patel"
+                    android:textAlignment="viewStart"
+                    android:textColor="#02A9CE"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="360dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:text="⦿ Anuj Goswami"
+                    android:textAlignment="viewStart"
+                    android:textColor="#02A9CE"
+                    android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:padding="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="390dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:text="⦿ Daxish Gediya"
+                    android:textAlignment="viewStart"
+                    android:textColor="#02A9CE"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="390dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:text="⦿ Chintan"
+                    android:textAlignment="viewStart"
+                    android:textColor="#02A9CE"
+                    android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:padding="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="420dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:text="⦿ Dhruv Barot"
+                    android:textAlignment="viewStart"
+                    android:textColor="#02A9CE"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="420dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:text="⦿ Harsh Mistry"
+                    android:textAlignment="viewStart"
+                    android:textColor="#02A9CE"
+                    android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:padding="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="450dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:text="⦿ Harsh Patel"
+                    android:textAlignment="viewStart"
+                    android:textColor="#02A9CE"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="450dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:text="⦿ Mustufa G"
+                    android:textAlignment="viewStart"
+                    android:textColor="#02A9CE"
+                    android:textSize="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:padding="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="480dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:text="⦿ Shardul Dabgar"
+                    android:textAlignment="viewStart"
+                    android:textColor="#02A9CE"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="480dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:text="⦿ Shubham"
+                    android:textAlignment="viewStart"
+                    android:textColor="#02A9CE"
+                    android:textSize="15dp" />
+        </TableRow>
+
+
+
+
+</RelativeLayout>

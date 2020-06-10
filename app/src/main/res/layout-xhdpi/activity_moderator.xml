@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/moderator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="false"
+    android:background="@mipmap/artboard"
+    tools:context=".moderator">
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/cricket"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/cb1"
+            android:text="cricket"
+            android:textColor="@color/White"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/fotball"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cb1"
+            android:text="football"
+            android:textColor="@color/White"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/kho_kho"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/cb1"
+            android:text="kho kho"
+            android:textColor="@color/White"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/badminton"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cb1"
+            android:text="badminton"
+            android:textColor="@color/White"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/second"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/kabaddi"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/cb1"
+            android:text="kabaddi"
+            android:textColor="@color/White"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/volleyball"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cb1"
+            android:text="volleyball"
+            android:textColor="@color/White"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/hockey"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/third"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/cb1"
+        android:text="hockey"
+        android:textColor="@color/White"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</RelativeLayout>

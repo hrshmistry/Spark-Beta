@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/artboard"
+    tools:context=".mode">
+
+    <TextView
+        android:id="@+id/team_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:hint="Team B"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TableLayout
+        android:id="@+id/player_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/team_name"
+        android:background="#f1f1f1"
+        android:stretchColumns="*">
+
+        <TableRow
+
+            android:padding="10dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Batsman"
+                android:textAlignment="center"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/single_bp71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Run"
+                android:textAlignment="center"
+                android:textColor="@color/Black" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/play1"
+                android:background="#ffffff"
+                android:hint="players"
+                android:padding="2dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/r1"
+                android:background="#ffffff"
+                android:hint="runs_scored"
+                android:padding="2dip"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/play2"
+                android:background="#ffffff"
+                android:hint="players"
+                android:padding="2dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/r2"
+                android:background="#ffffff"
+                android:hint="runs_scored"
+                android:padding="2dip"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/play3"
+                android:background="#ffffff"
+                android:hint="players"
+                android:padding="2dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/r3"
+                android:background="#ffffff"
+                android:hint="runs_scored"
+                android:padding="2dip"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/play4"
+                android:background="#ffffff"
+                android:hint="players"
+                android:padding="2dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/r4"
+                android:background="#ffffff"
+                android:hint="runs_scored"
+                android:padding="2dip"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/play5"
+                android:background="#ffffff"
+                android:hint="players"
+                android:padding="2dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/r5"
+                android:background="#ffffff"
+                android:hint="runs_scored"
+                android:padding="2dip"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/play6"
+                android:background="#ffffff"
+                android:hint="players"
+                android:padding="2dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/r6"
+                android:background="#ffffff"
+                android:hint="runs_scored"
+                android:padding="2dip"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/play7"
+                android:background="#ffffff"
+                android:hint="players"
+                android:padding="2dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/r7"
+                android:background="#ffffff"
+                android:hint="runs_scored"
+                android:padding="2dip"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/play8"
+                android:background="#ffffff"
+                android:hint="players"
+                android:padding="2dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/r8"
+                android:background="#ffffff"
+                android:hint="runs_scored"
+                android:padding="2dip"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/play9"
+                android:background="#ffffff"
+                android:hint="players"
+                android:padding="2dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/r9"
+                android:background="#ffffff"
+                android:hint="runs_scored"
+                android:padding="2dip"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/play10"
+                android:background="#ffffff"
+                android:hint="players"
+                android:padding="2dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/r10"
+                android:background="#ffffff"
+                android:hint="runs_scored"
+                android:padding="2dip"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/play11"
+                android:background="#ffffff"
+                android:hint="players"
+                android:padding="2dip"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/r11"
+                android:background="#ffffff"
+                android:hint="runs_scored"
+                android:padding="2dip"
+                android:textAlignment="center" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/player_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Submit"
+        android:textColor="@color/Black" />
+
+</RelativeLayout>

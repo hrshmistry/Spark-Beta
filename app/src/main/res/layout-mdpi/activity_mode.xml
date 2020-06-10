@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02a9ce"
+    tools:context=".mode">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#02a9ce"
+        tools:context=".mode">
+
+        <LinearLayout
+            android:id="@+id/toss"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/teamdata"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/disp_sc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="Score"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/score_store"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="Store"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/clear_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="clear"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/teamdata"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/wb"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/teamData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="details"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="Switch"
+                android:textOff="TeamB"
+                android:textOn="TeamA" />
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/team1Spinner"
+            android:layout_width="145dp"
+            android:layout_height="43dp"
+            android:layout_below="@id/toss_info"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_mod_style"/>
+
+        <Spinner
+            android:id="@+id/team2Spinner"
+            android:layout_width="145dp"
+            android:layout_height="43dp"
+            android:layout_below="@id/toss_info"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_mod_style"/>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:background="@drawable/round_mod_style"
+                android:hint="Value"
+                android:textColorHint="#02a9ce"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/user_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint=" Updates"
+                android:textColorHint="#02a9ce"
+                android:textAlignment="center"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/toss_info"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_mod_style"
+            android:ems="10"
+            android:hint="Toss Information"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textColorHint="#02a9ce"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/run"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toggle"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/round_mod_style"
+            android:ems="10"
+            android:hint="Add Run"
+            android:textColorHint="#02a9ce"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/extrarun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/run_layout1"
+            android:layout_marginTop="41dp"
+            android:background="@drawable/round_mod_style"
+            android:ems="10"
+            android:hint="Extra Run"
+            android:textColorHint="#02a9ce"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/extras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/run_layout1"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="93dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/updateLastBall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_marginBottom="58dp"
+                android:background="@drawable/round_mod_style"
+                android:text="Undo"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/lb"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:background="@drawable/round_mod_style"
+                android:text="LB"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/noball_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="NB"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/wide_btn"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/wide_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="WD"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="278dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Ball"
+            android:layout_marginTop="56dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/wicket_plus"
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:layout_margin="7sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="+1"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/wicket_minus"
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:layout_margin="7sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="-1"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ball_plus"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="7sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="+1"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ball_minus"
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:layout_margin="7sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="-1"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/run_plus"
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:layout_margin="7sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="+1"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/run_minus"
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:layout_margin="7sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="-1"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/team1Spinner"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/tglBtn1"
+                android:layout_width="114dp"
+                android:layout_height="38dp"
+                android:layout_margin="5sp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/round_mod_style"
+                android:textColor="@color/Black"
+                android:textOff="striker"
+                android:textOn="non-striker"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"/>
+
+            <EditText
+                android:id="@+id/setPlrName"
+                android:layout_width="191dp"
+                android:layout_height="36dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5sp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Enter Batsman Name"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:layout_below="@id/toggle">
+
+            <Button
+                android:id="@+id/setPlrBtn"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_marginStart="5sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginBottom="5sp"
+                android:background="@drawable/round_mod_style"
+                android:text="set"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/count_zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="Set Zero"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/run_layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/run"
+            android:layout_alignParentStart="false"
+            android:layout_marginTop="11dp"
+            android:background="#02a9ce"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/run_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="0"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/run_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="1"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/run_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="2"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/run_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="3"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/run_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="4"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/run_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="5"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/run_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_mod_style"
+                android:text="6"
+                android:textColor="@color/Black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/wicket"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/extras"
+            android:layout_margin="7sp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="7sp"
+            android:background="@drawable/round_mod_style"
+            android:ems="10"
+            android:hint="Wicket"
+            android:textColorHint="#02a9ce"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Ball"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/extras"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15sp"
+            android:layout_marginEnd="2sp"
+            android:layout_marginBottom="-52dp"
+            android:layout_toEndOf="@+id/wicket"
+            android:background="@drawable/round_mod_style"
+            android:ems="10"
+            android:hint="Ball"
+            android:textColorHint="#02a9ce"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Run"
+            android:layout_width="137dp"
+            android:layout_height="47dp"
+            android:layout_alignBottom="@+id/extras"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="2sp"
+            android:layout_marginBottom="-54dp"
+            android:layout_toEndOf="@+id/Ball"
+            android:background="@drawable/round_mod_style"
+            android:ems="10"
+            android:hint="Run"
+            android:textColorHint="#02a9ce"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>

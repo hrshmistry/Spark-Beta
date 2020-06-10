@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02a9ce"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#02a9ce"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/bs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/round_mod_style"
+            android:ems="10"
+            android:hint="Boys Singles"
+            android:textAlignment="center"
+            android:textColorHint="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/round_mod_style"
+            android:ems="10"
+            android:hint="Boys Doubles"
+            android:textAlignment="center"
+            android:textColorHint="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="550dp"
+            android:background="@drawable/round_mod_style"
+            android:ems="10"
+            android:hint="Girls Singles"
+            android:textAlignment="center"
+            android:textColorHint="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/run"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="800dp"
+            android:background="@drawable/round_mod_style"
+            android:ems="10"
+            android:hint="Girls Doubles"
+            android:textAlignment="center"
+            android:textColorHint="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/badminton"
+                android:textAlignment="center"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:text="BADMINTON MODERATOR VIEW"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/a"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/single_bp71"
+                android:layout_width="236dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Player 1"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.341"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/badminton" />
+
+            <EditText
+                android:id="@+id/dbps1"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Department"
+                android:textAlignment="center"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/single_bp2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/b"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/single_bp2"
+                android:layout_width="236dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Player 2"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/single_bp71"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <EditText
+                android:id="@+id/dbps2"
+                android:layout_width="136dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Department"
+                android:textAlignment="center"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/single_bp71"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/play3"
+                android:layout_width="236dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Player 1"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/single_bp2" />
+
+            <EditText
+                android:id="@+id/dbdp1"
+                android:layout_width="136dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Department"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/play3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/d"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/play4"
+                android:layout_width="236dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Player 2"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/dbdp2"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/play3" />
+
+            <EditText
+                android:id="@+id/dbdp2"
+                android:layout_width="136dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Department"
+                android:textAlignment="center"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/e"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/play5"
+                android:layout_width="236dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Player 1"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.066"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/play4"
+                app:layout_constraintVertical_bias="0.742" />
+
+            <EditText
+                android:id="@+id/dgsp1"
+                android:layout_width="136dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Department"
+                android:textAlignment="center"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/play5"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/f"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/play6"
+                android:layout_width="236dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Player 2"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.022"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/play5"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <EditText
+                android:id="@+id/dgsp2"
+                android:layout_width="136dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Department"
+                android:textAlignment="center"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/play6"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/g"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/play7"
+                android:layout_width="236dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Player 1"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/play6"
+                app:layout_constraintVertical_bias="0.857" />
+
+            <EditText
+                android:id="@+id/dgdp1"
+                android:layout_width="136dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Department"
+                android:textAlignment="center"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/play7"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/h"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/play8"
+                android:layout_width="236dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Player 2"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.088"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/play7"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <EditText
+                android:id="@+id/dgdp2"
+                android:layout_width="136dp"
+                android:layout_height="68dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:ems="10"
+                android:hint="Department"
+                android:textAlignment="center"
+                android:inputType="textPersonName"
+                android:textColor="@color/Black"
+                android:textColorHint="#02a9ce"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/play8"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/j"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/i"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_mod_style"
+                android:text="Submit"
+                android:textColor="@color/Black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/play8" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

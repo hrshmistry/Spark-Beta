@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/White">
+
+        <TextView
+            android:id="@+id/badminton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserratbold"
+            android:text="BADMINTON"
+            android:textAlignment="center"
+            android:textColor="#02A9CE"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.028"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.026" />
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+                android:layout_width="274dp"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:background="#f1f1f1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="BOYS"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+            <TableRow
+                android:layout_width="274dp"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="SINGLES"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textAlignment="center"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/White"
+                android:padding="2dp"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="NO."
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="PLAYER"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="DEPT."
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+            <TableRow
+                android:padding="5dp"
+                android:background="@color/White"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1"
+                    android:fontFamily="@font/montserratregular"
+                    android:background="#ffffff"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/single_bp71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:text="DHRUV FROM IT"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/dpt1"
+                    android:background="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="I.T."
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/White"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:text="2"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/single_bp2"
+                    android:background="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="MUKESH (ANUJ)"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/dpt2"
+                    android:background="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="I.T."
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+            <View
+                android:layout_height="1dp"
+                android:layout_width="wrap_content"></View>
+            <TableRow
+                android:padding="2dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="DOUBLES"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+            <TableRow
+                android:background="@color/White"
+                android:padding="2dp"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="NO."
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="PLAYER"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="DEPT."
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+            <TableRow
+                android:background="@color/White"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/double_bp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="MUKO/SHARDUL"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/dpt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="I.T."
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/White"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/double_bp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="BHOLO/BAROT"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/dpt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="I.T."
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="274dp"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:background="#f1f1f1"
+                android:fontFamily="@font/montserratsemibold"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="GIRLS"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+
+            <TableRow
+
+                android:padding="2dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="SINGLES"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textAlignment="center"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+            <TableRow
+                android:background="@color/White"
+                android:padding="2dp"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="NO."
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="PLAYER"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="DEPT."
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+            <TableRow
+                android:background="@color/White"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/single_gp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TBA"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/dpt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TBA"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/White"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/single_gp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TBA"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/dpt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TBA"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+
+            <TableRow
+
+                android:padding="2dp"
+                android:layout_marginTop="20sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="DOUBLES"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/White"
+                android:padding="2dp"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="NO."
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="PLAYER NAME"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="DEPT."
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+            <TableRow
+                android:background="@color/White"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/double_gp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TBA"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/dpt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TBA"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/White"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/double_gp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TBA"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+
+                <TextView
+                    android:id="@+id/dpt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TBA"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="#02A9CE" />
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+</ScrollView>

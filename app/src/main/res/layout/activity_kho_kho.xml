@@ -2,23 +2,24 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#212121"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@mipmap/artboard"
     tools:context=".kho_kho">
 
     <TextView
         android:id="@+id/badminton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="139dp"
+        android:layout_height="29dp"
         android:layout_marginLeft="3dp"
         android:text="KHO-KHO"
-        android:textColor="#1DE9B6"
-        android:textSize="18sp"
+        android:textColor="#02A9CE"
+        android:fontFamily="@font/montserratbold"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.026" />
@@ -36,7 +37,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TableRow
-            android:background="#424242"
+            android:background="#f1f1f1"
             android:padding="2dp">
 
             <TextView
@@ -44,14 +45,16 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="BOYS"
+                android:fontFamily="@font/montserratsemibold"
                 android:textAlignment="center"
-                android:textColor="#1DE9B6"
+                android:textColor="#02A9CE"
                 android:textSize="24sp" />
         </TableRow>
 
         <TableRow
-            android:background="#424242"
-            android:padding="2dp">
+
+            android:padding="5dp"
+            android:layout_marginTop="20dp">
 
 
             <TextView
@@ -59,25 +62,28 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="NO."
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="#02A9CE" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="SCORE"
-                android:textColor="#1DE9B6" />
+                android:text="PLAYER"
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="#02A9CE" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="DEPT."
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="#02A9CE" />
         </TableRow>
 
         <TableRow
-            android:background="#616161"
+
             android:padding="5dp">
 
             <TextView
@@ -85,15 +91,17 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="1"
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE" />
 
             <TextView
                 android:id="@+id/single_bp71"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserratregular"
                 android:text="DHRUV FROM IT"
-                android:textColor="#1DE9B6" />
+                android:textColor="#02A9CE" />
 
             <TextView
                 android:id="@+id/dpt1"
@@ -101,11 +109,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="I.T."
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE" />
         </TableRow>
 
         <TableRow
-            android:background="#616161"
+
             android:padding="5dp">
 
             <TextView
@@ -113,7 +122,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="2"
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE" />
 
             <TextView
                 android:id="@+id/single_bp2"
@@ -121,7 +131,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="MUKESH (ANUJ)"
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE"/>
 
             <TextView
                 android:id="@+id/dpt2"
@@ -129,26 +140,29 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="I.T."
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE" />
         </TableRow>
 
         <TableRow
-            android:background="#424242"
-            android:padding="2dp">
+            android:background="#f1f1f1"
+            android:padding="2dp"
+            android:layout_marginTop="40dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="GIRLS"
+                android:fontFamily="@font/montserratsemibold"
                 android:textAlignment="center"
-                android:textColor="#1DE9B6"
+                android:textColor="#02A9CE"
                 android:textSize="24sp" />
         </TableRow>
 
         <TableRow
-            android:background="#424242"
-            android:padding="2dp">
+            android:padding="5dp"
+            android:layout_marginTop="20dp">
 
 
             <TextView
@@ -156,25 +170,28 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="NO."
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="#02A9CE" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="PLAYER NAME"
-                android:textColor="#1DE9B6" />
+                android:text="PLAYER"
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="#02A9CE" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="DEPT."
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="#02A9CE" />
         </TableRow>
 
         <TableRow
-            android:background="#616161"
+
             android:padding="5dp">
 
             <TextView
@@ -182,7 +199,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="1"
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE"  />
 
             <TextView
                 android:id="@+id/double_bp1"
@@ -190,7 +208,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="MUKO/SHARDUL"
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE"  />
 
             <TextView
                 android:id="@+id/dpt3"
@@ -198,11 +217,11 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="I.T."
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE"  />
         </TableRow>
 
         <TableRow
-            android:background="#616161"
             android:padding="5dp">
 
             <TextView
@@ -210,7 +229,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="2"
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE"  />
 
             <TextView
                 android:id="@+id/double_bp2"
@@ -218,7 +238,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="BHOLO/BAROT"
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE"  />
 
             <TextView
                 android:id="@+id/dpt4"
@@ -226,26 +247,30 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="I.T."
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE"  />
         </TableRow>
 
         <TableRow
-            android:background="#424242"
-            android:padding="2dp">
+            android:background="#f1f1f1"
+            android:padding="2dp"
+            android:layout_marginTop="40dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="FACULTY"
+                android:fontFamily="@font/montserratsemibold"
                 android:textAlignment="center"
-                android:textColor="#1DE9B6"
+                android:textColor="#02A9CE"
                 android:textSize="24sp" />
         </TableRow>
 
         <TableRow
-            android:background="#424242"
-            android:padding="2dp">
+
+            android:padding="2dp"
+            android:layout_marginTop="20dp">
 
 
             <TextView
@@ -253,25 +278,27 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="NO."
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="#02A9CE" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="PLAYER NAME"
-                android:textColor="#1DE9B6" />
+                android:text="PLAYER"
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="#02A9CE" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="DEPT."
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="#02A9CE" />
         </TableRow>
 
         <TableRow
-            android:background="#616161"
             android:padding="5dp">
 
             <TextView
@@ -279,7 +306,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="1"
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE" />
 
             <TextView
                 android:id="@+id/single_gp1"
@@ -287,7 +315,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="TBA"
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE" />
 
             <TextView
                 android:id="@+id/dpt5"
@@ -295,11 +324,11 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="TBA"
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE" />
         </TableRow>
 
         <TableRow
-            android:background="#616161"
             android:padding="5dp">
 
             <TextView
@@ -307,7 +336,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="2"
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE" />
 
             <TextView
                 android:id="@+id/single_gp2"
@@ -315,7 +345,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="TBA"
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE" />
 
             <TextView
                 android:id="@+id/dpt6"
@@ -323,8 +354,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="TBA"
-                android:textColor="#1DE9B6" />
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#02A9CE" />
         </TableRow>
 
     </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

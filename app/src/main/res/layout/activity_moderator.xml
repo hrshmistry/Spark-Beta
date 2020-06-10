@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_centerInParent="false"
     android:layout_centerHorizontal="false"
-    android:background="@drawable/bcimage"
+    android:background="@mipmap/artboard"
     tools:context=".moderator">
 
     <LinearLayout
@@ -14,9 +14,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="false"
-        android:layout_centerHorizontal="false"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
         android:orientation="horizontal"
         android:padding="30dp">
 
@@ -47,8 +46,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/first"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="50dp"
         android:orientation="horizontal"
         android:padding="30dp">
 
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="20sp"
             android:background="@drawable/cb1"
-            android:text="kho_kho"
+            android:text="kho kho"
             android:textColor="@color/White"
             android:textSize="15sp"
             android:textStyle="bold" />
@@ -79,7 +79,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/second"
-        android:layout_marginTop="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
         android:orientation="horizontal"
         android:padding="30dp">
 
@@ -103,5 +104,19 @@
             android:textColor="@color/White"
             android:textSize="15sp"
             android:textStyle="bold" />
+
     </LinearLayout>
+
+    <Button
+        android:id="@+id/hockey"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/cb1"
+        android:text="hockey"
+        android:textColor="@color/White"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 </RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/schedule_display"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Schedule"/>
+        <item
+                android:id="@+id/nav_messages"
+                android:icon="@drawable/ic_profile"
+                android:title="Sign In"/>
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="About Us"/>
+    </group>
+</menu>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstrainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02a9ce"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/plus2"
+        android:layout_width="89dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/round_mod_style"
+        android:text="+"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/minus2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toEndOf="@+id/plus1"
+        app:layout_constraintTop_toBottomOf="@+id/team2Spinner"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <Button
+        android:id="@+id/minus2"
+        android:layout_width="89dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="282dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/round_mod_style"
+        android:text="-"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plus2" />
+
+    <Button
+        android:id="@+id/setToZero"
+        android:layout_width="107dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="82dp"
+        android:background="@drawable/round_mod_style"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="set to zero"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/modScore" />
+
+    <TextView
+        android:id="@+id/modScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="135dp"
+        android:fontFamily="@font/montserratbold"
+        android:background="@drawable/round_mod_style"
+        android:hint="0-0"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/setToZero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team1Spinner"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/minus1"
+        android:layout_width="89dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/round_mod_style"
+        android:text="-"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/minus2"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plus1" />
+
+    <Button
+        android:id="@+id/plus1"
+        android:layout_width="89dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/round_mod_style"
+        android:text="+"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/minus1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.274"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team1Spinner"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/team1Spinner"
+        android:layout_width="163dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginBottom="543dp"
+        android:background="@drawable/round_mod_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/team2Spinner"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/team2Spinner"
+        android:layout_width="163dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginBottom="543dp"
+        android:background="@drawable/round_mod_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/team1Spinner"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="98dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="38dp"
+        android:background="@drawable/round_mod_style"
+        android:text="Team 1"
+        android:fontFamily="@font/montserratsemibold"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/team1Spinner"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="98dp"
+        android:layout_height="31dp"
+        android:background="@drawable/round_mod_style"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="Team 2"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/team2Spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
+
+    <Button
+        android:id="@+id/win"
+        android:layout_width="105dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/montserratbold"
+        android:background="@drawable/round_mod_style"
+        android:text="win"
+        app:layout_constraintBottom_toTopOf="@+id/modScore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team1Spinner" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
