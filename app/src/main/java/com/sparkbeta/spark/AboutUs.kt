@@ -5,7 +5,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-
+//This file shows the status of all the team members who put thier josh together for building this application ##
 class AboutUs : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
