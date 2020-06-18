@@ -11,6 +11,9 @@
 <p float="center"> 
   <img src="/Screenshots/1.png" height="412" width="220" />
   <img src="/Screenshots/2.png" height="412" width="220" />
+</p>
+
+<p float="center"> 
   <img src="/Screenshots/3.png" height="412" width="220" />
   <img src="/Screenshots/4.png" height="412" width="220" />
 </p>
