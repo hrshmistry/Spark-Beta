@@ -26,7 +26,7 @@
 
 ## SUPPORT THE WORK
 
+[![GitHub followers](https://img.shields.io/github/followers/hrshmistry?label=follow&style=social)](https://github.com/hrshmistry?tab=followers)
 [![GitHub forks](https://img.shields.io/github/forks/hrshmistry/Spark-Beta?label=forks&style=social)](https://github.com/hrshmistry/Spark-Beta/network) &nbsp;
 [![GitHub stars](https://img.shields.io/github/stars/hrshmistry/Spark-Beta?style=social)](https://github.com/hrshmistry/Spark-Beta/stargazers)
 &nbsp;
-[![GitHub followers](https://img.shields.io/github/followers/hrshmistry?label=follow&style=social)](https://github.com/hrshmistry?tab=followers)
