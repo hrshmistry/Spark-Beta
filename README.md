@@ -1,6 +1,8 @@
 # Spark-Beta
 
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/hrshmistry/Spark-Beta)
+![GitHub](https://img.shields.io/github/license/hrshmistry/Spark-Beta)
+![GitHub top language](https://img.shields.io/github/languages/top/hrshmistry/Spark-Beta)
 
 #### Spark-Beta provides you with blazing fast, reliable and accurate sport event updates with live Score and Schedules for Sport events like Cricket, Football, Kabaddi, Badminton and many more. 
 
@@ -27,5 +29,4 @@
 [![GitHub forks](https://img.shields.io/github/forks/hrshmistry/Spark-Beta?label=forks&style=social)](https://github.com/hrshmistry/Spark-Beta/network) &nbsp;
 [![GitHub stars](https://img.shields.io/github/stars/hrshmistry/Spark-Beta?style=social)](https://github.com/hrshmistry/Spark-Beta/stargazers)
 &nbsp;
-
 [![GitHub followers](https://img.shields.io/github/followers/hrshmistry?label=follow&style=social)](https://github.com/hrshmistry?tab=followers)
