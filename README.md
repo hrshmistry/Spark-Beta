@@ -14,6 +14,10 @@
 - Ranking and Records
 - Easy Navigation
 
+## Tech Stack
+- Language: Kotlin, XML
+- Database: Firebase
+
 <p float="center"> 
   <img src="/Screenshots/1.png" height="412" width="220" />
   <img src="/Screenshots/2.png" height="412" width="220" />
